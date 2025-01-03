@@ -1,0 +1,13 @@
+# Ignore .env file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore MacOS system files
+.DS_Store
