@@ -82,7 +82,7 @@ Before running the game, ensure you have the following installed:
 
 To install the required dependencies, you can use the requirements.txt file provided in this repository:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 How the AI Works
