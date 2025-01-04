@@ -9,6 +9,7 @@ Table of Contents
     How to Play
     Technologies Used
     Installation and Setup
+    Requirements
     How the AI Works
     Contributing
     License
@@ -70,6 +71,19 @@ Install the required dependencies:
 Run the game:
 
     python game.py
+
+Requirements
+
+Before running the game, ensure you have the following installed:
+
+    Python 3.x (Recommended version: 3.8 or higher)
+    Pygame: Python library for making games.
+    Numpy: Library for numerical operations in Python.
+
+To install the required dependencies, you can use the requirements.txt file provided in this repository:
+
+pip install -r requirements.txt
+
 
 How the AI Works
 
