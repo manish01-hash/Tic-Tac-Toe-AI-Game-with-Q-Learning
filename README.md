@@ -1,6 +1,7 @@
 Tic Tac Toe AI Game
 
 Welcome to the Tic Tac Toe AI Game, a modern twist on the classic game, powered by Python and Pygame. This project allows players to challenge an AI using a Minimax algorithm for strategic gameplay, or to enjoy a friendly match with another player.
+
 Table of Contents
 
     About the Project
