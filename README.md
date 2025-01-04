@@ -24,6 +24,8 @@ Features
     Dynamic Difficulty: You can change the AI difficulty during the game.
 
 Screenshots
+
+
 Starting Interface:
 
  ![image alt](https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning/blob/6daea188091d55affbdc63047347469f70006551/Tic%20tac%20toe%20home%20pic)
