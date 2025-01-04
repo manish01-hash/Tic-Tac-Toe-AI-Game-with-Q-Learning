@@ -60,7 +60,7 @@ Installation and Setup
 
 
     
-    Tic-Tac-Toe-AI-Game-with-Q-Learning
+    cd Tic-Tac-Toe-AI-Game-with-Q-Learning
 
 
 Install the required dependencies:
