@@ -33,6 +33,10 @@ Game Board:
  ![image alt](https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning/blob/039cf56dd39575a4c559288e87bd5bb9cd34d57b/Game%20Board)
 
 
+ In Game Photo:
+ 
+![image alt](https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning/blob/c9ad60b1f4380e68a7bf1fba31bc82cf20603e29/In%20game%20Photo)
+
 How to Play
 
     Start the Game: Press Enter to begin the game.
