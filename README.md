@@ -42,6 +42,8 @@ Run the game:
 
     python main.py
 
+
+
 Future Improvements:
 
     Integration of a neural network-based AI for more sophisticated gameplay.
