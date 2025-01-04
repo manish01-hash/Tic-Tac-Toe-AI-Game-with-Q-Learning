@@ -33,7 +33,7 @@ Learning Outcomes:
 
 Installation and Setup:
 
-    Clone the repository: git clone https://github.com/your-username/TicTacToe-AI-Game.git
+    Clone the repository: git clone https://github.com/manish01-hash/TicTacToe-AI-Game.git
     Install the necessary dependencies:
 
 pip install pygame numpy
