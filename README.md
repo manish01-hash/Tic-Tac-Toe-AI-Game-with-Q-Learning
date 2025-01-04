@@ -30,7 +30,7 @@ Starting Interface:
 
 Game Board: 
 
- ![image alt]([https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning/blob/6daea188091d55affbdc63047347469f70006551/Tic%20tac%20toe%20home%20pic](https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning/blob/039cf56dd39575a4c559288e87bd5bb9cd34d57b/Game%20Board))
+ ![image alt](https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning/blob/039cf56dd39575a4c559288e87bd5bb9cd34d57b/Game%20Board)
 
 
 How to Play
