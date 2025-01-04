@@ -1,56 +1,82 @@
-Description:
+Tic Tac Toe AI Game
 
-This project is an implementation of the classic Tic Tac Toe game, featuring an AI opponent powered by Q-Learning. The game is built using Python and the Pygame library, providing an interactive and engaging user interface. The AI player learns to make optimal decisions using Q-Learning, a type of reinforcement learning that enables it to improve over time.
+Welcome to the Tic Tac Toe AI Game, a modern twist on the classic game, powered by Python and Pygame. This project allows players to challenge an AI using a Minimax algorithm for strategic gameplay, or to enjoy a friendly match with another player.
+Table of Contents
 
-Key Features:
+    About the Project
+    Features
+    Screenshots
+    How to Play
+    Technologies Used
+    Installation and Setup
+    How the AI Works
+    Contributing
+    License
 
-    Classic Tic Tac Toe Gameplay: Players can choose between playing against an AI or another human player (PvP mode).
+About the Project
 
-    AI Powered by Q-Learning: The AI uses Q-Learning to learn from its gameplay and improve its performance. It explores the board and makes decisions based on previously learned experiences.
+This is a Tic Tac Toe game where you can play against an AI using Q-learning for decision-making. Built with Python and the Pygame library, the AI learns to make better moves as it plays more games. Players can choose between playing against the AI or another player in PvP mode.
+Features
 
-    Three Levels of Difficulty: The AI can be set to three difficulty levels, ranging from easy to hard, based on how deep the algorithm explores the game tree.
+    AI Mode: Play against the AI with adjustable difficulty (Easy, Normal, Hard).
+    PvP Mode: Play with another player locally.
+    Q-Learning AI: The AI uses reinforcement learning to improve its decision-making over time.
+    Dynamic Difficulty: You can change the AI difficulty during the game.
 
-    Smooth Graphics and User Interface: Pygame handles the graphical display, making the game visually appealing with smooth transitions, highlighting winning moves, and a user-friendly interface.
+Screenshots
 
-    Real-Time Q-Table Updates: During each game, the AI's Q-Table is updated in real-time based on the outcome, refining its decision-making ability for future games.
 
-    Customizable Game Modes: Users can toggle between AI vs Player and Player vs Player modes. The game can also be restarted at any point.
+How to Play
 
-    Game Result Display: At the end of each game, the result (win/lose/draw) is displayed with a short pause before the game restarts.
+    Start the Game: Press Enter to begin the game.
+    Change Game Mode: Press G to switch between AI and PvP modes.
+    Make a Move: Click on the grid to place your mark.
+    Restart the Game: Press R to restart the game at any time.
+    Set AI Difficulty: During the start of the game, set the AI's difficulty by pressing 0, 1, or 2.
 
-Technologies Used:
+Technologies Used
 
-    Python: The programming language used for the development of the game logic and AI functionality.
-    Pygame: The library used to create the game's graphical interface and handle user input.
-    NumPy: For handling arrays and matrix operations, such as the board's state and Q-Table management.
-    Q-Learning: A machine learning technique used to enable the AI to learn from its actions and outcomes in the game environment.
+    Python 3.x: Programming language used to build the game.
+    Pygame: Library used to create the graphical user interface (GUI) and game loop.
+    Numpy: Used for efficient array manipulation to represent the game board.
+    Q-learning: Machine learning algorithm used for the AI's decision-making process.
 
-Learning Outcomes:
+Installation and Setup
 
-    Understanding and implementing Q-Learning in a real-world application.
-    Gaining experience with game development using Python and Pygame.
-    Building an interactive AI system that learns and improves over time.
+    git clone https://github.com/manish01-hash/Tic-Tac-Toe-AI-Game-with-Q-Learning.git
 
-Installation and Setup:
 
-    git Clone the repository: git clone https://github.com/manish01-hash/TicTacToe-AI-Game.git
-    Install the necessary dependencies:
+    
+    Tic-Tac-Toe-AI-Game-with-Q-Learning
 
-pip install pygame numpy
+
+Install the required dependencies:
+
+    pip install pygame numpy
 
 Run the game:
 
-    python main.py
+    python game.py
 
+How the AI Works
 
+The AI is powered by Q-learning, a reinforcement learning algorithm. It learns the best moves over time by updating a Q-table based on rewards it receives from the game outcome. The AI balances exploration (trying random moves) and exploitation (choosing the best-known move based on Q-values).
 
-Future Improvements:
+    AI Actions: The AI chooses to either explore new moves (random choice) or exploit the best-known moves based on the Q-values.
 
-    Integration of a neural network-based AI for more sophisticated gameplay.
-    Enhanced graphical design with animations and sound effects.
-    Multiplayer support via network connection for remote player interaction.
-    Implementation of additional AI strategies like minimax for comparison with Q-Learning.
+    Q-values: The Q-table stores values that represent the potential future rewards of taking specific actions in different board states. The AI updates these values using the Q-learning formula:
+    Q(s,a)=Q(s,a)+α×(R(s,a)+γ×max⁡aQ(s′,a)−Q(s,a))
+    Q(s,a)=Q(s,a)+α×(R(s,a)+γ×amax​Q(s′,a)−Q(s,a))
 
-Contributions:
+    Where:
+        αα is the learning rate
+        γγ is the discount factor
+        R(s,a)R(s,a) is the immediate reward
+        max⁡aQ(s′,a)maxa​Q(s′,a) is the best future reward
 
-Feel free to fork the repository, open issues, or submit pull requests to contribute to improving the game or adding new features!
+Contributing
+
+If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Make sure to include tests for any new features or bug fixes.
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
